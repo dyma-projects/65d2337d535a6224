@@ -11,4 +11,8 @@ export class Exercice1Component implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  update_value_cpteur(event: { value: number }) {
+    this.result = event.value;
+  }
 }
